@@ -8,3 +8,5 @@
 +   Let user to add their self budget
 ## PageFontStyle
 +   Let font style change
+## Wikit
++   do Wikit search
