@@ -10,3 +10,5 @@
 +   Let font style change
 ## Wikit
 +   do Wikit search
+## Speak
++   Speak the selected text
