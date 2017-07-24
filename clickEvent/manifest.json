@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "測試 click",
+    "version": "2.0",
+    "browser_action": {
+        "default_title": "測試 Click Title",
+        "default_icon": {
+            "16": "16.png",
+            "24": "24.png",
+            "32": "32.png"
+        }
+    },
+    "background": {
+        "scripts": ["event.js"],
+        "persistent": false
+    }
+}
