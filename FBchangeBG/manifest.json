@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Commands範例",
+    "description": "使用快捷鍵改變fb背景顏色",
+    "version": "2.0",
+    "icons":{
+      "16": "16.png",
+      "24": "24.png",
+      "48": "48.png",
+      "128": "128.png"  
+    },
+    "page_action": {
+        "default_title": "快捷鍵改變fb背景顏色"
+    },
+    "permissions": ["tabs", "activeTab", "declarativeContent"],
+    "commands": {
+        "switch-fb-bg": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+Y",
+                "mac": "MacCtrl+Shift+Y"
+            },
+            "description": "快捷鍵改變fb背景顏色"
+        }
+    },
+    "background": {
+        "scripts": ["event.js"],
+        "persistent": false
+    }
+}
