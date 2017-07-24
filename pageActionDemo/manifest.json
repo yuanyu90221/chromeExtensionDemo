@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "測試-Page-Action",
+    "description": "啟用方法2:只有在host是: www.google.com.tw的網域底下啟用此頁面按鈕",
+    "version": "2.0",
+    "icons":{
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png"  
+    },
+    "page_action": {
+        "default_title": "啟用方法2",
+        "default_icon": {
+            "16": "16.png",
+            "48": "48.png",
+            "128": "128.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["event.js"],
+        "persistent": false
+    },
+    "permissions": ["tabs", "declarativeContent"]
+}

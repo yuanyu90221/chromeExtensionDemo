@@ -11,11 +11,6 @@
     },
     "browser_action": {
         "default_title": "browser 測試",
-        // "default_icon": {
-        //     "16": "16.png",
-        //     "24": "24.png",
-        //     "32": "32.png"
-        // },
         "default_popup": "popup.html"
     }
 }
