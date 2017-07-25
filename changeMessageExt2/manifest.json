@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "changeMessageExt2",
+    "description": "changeMessageExt2",
+    "version": "2.0",
+    "icons":{
+      "16": "16.png",
+      "24": "24.png",
+      "48": "48.png",
+      "128": "128.png"  
+    },
+    "browser_action": {
+        "default_title": "changeMessageExt2",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["tabs"]
+}
