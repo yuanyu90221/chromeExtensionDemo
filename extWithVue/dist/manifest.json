@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "extension with vue",
+    "description": "extension with ContentUI",
+    "version": "2.0",
+    "page_action": {
+        "default_title": "extension with vue",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "16.png",
+        "24": "24.png",
+        "48": "48.png",
+        "128": "128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://www.google.com.tw/*"],
+            "js": ["jquery-3.2.1.min.js","content.js"],
+            "css": ["animate.css"]
+        }
+    ],
+    "background": {
+        "scripts": ["event.js"],
+        "persistent": false
+    },
+    "permissions": ["tabs"]  
+}
